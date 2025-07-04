@@ -1,0 +1,16 @@
+package usage;
+import java.util.Scanner;
+public class github {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the String for n:");
+		String n = sc.nextLine();
+		System.out.print("Enter the string for m:");
+		String m = sc.nextLine();
+		
+		System.out.print(n + " Technologies " + m);
+
+	}
+
+}
